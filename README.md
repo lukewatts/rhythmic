@@ -1,7 +1,7 @@
 # Rhythmic
 ## jQuery Vertical Rhythm for Images
 
-Rhythmic is a jQuery plugin to correct problems when using images in with a vertical rhythm.
+Rhythmic is a jQuery plugin to correct problems when using images with a vertical rhythm.
 
 ## Example without Rhythmic
 {Add link to example webpage without Rhythmic}
