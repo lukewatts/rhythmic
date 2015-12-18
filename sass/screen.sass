@@ -1,0 +1,27 @@
+$base-font-size: 16px
+$base-line-height: 1.5 * $base-font-size // 16px * 1.5 = 24px
+
+@import compass/reset
+@import compass/typography
+
+/* MY STYLES */
+/* Establish Baseline */
++establish-baseline
+
+html
+    +baseline-grid-background
+
+body > div
+    max-width: 38rem
+    margin: 0 auto
+    padding: 0 20px
+
+img
+    display: block
+    width: auto
+
+// img[height="300"]
+//     max-height: 18rem
+
+// h1
+//     +adjust-font-size-to(2em)

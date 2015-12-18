@@ -1,0 +1,28 @@
+{
+  "name": "rhythmic",
+  "version": "1.0.0",
+  "description": "Make responsive images have stay withing a vertical rhythm.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "jquery",
+    "rhythmic",
+    "vertical-rhythm",
+    "responsive-images"
+  ],
+  "scripts": {
+      "compass:compile": "compass compile .",
+      "compass:dist:compile": "compass compile --force --output-style=compressed",
+      "compass:watch": "compass watch",
+      "jade:compile": "jade . --pretty",
+      "jade:watch": "jade --watch . --pretty",
+      "jade:dist:compile": "jade .",
+      "compile": "npm run compass:compile && npm run jade:compile",
+      "dist:compile": "npm run compass:dist:compile && npm run jade:dist:compile"
+  },
+  "author": "Luke Watts <luke@luke-watts.com>",
+  "license": "ISC"
+}
