@@ -85,4 +85,12 @@
             }
         });
     };
+    
+    // TODO: Make option mutable
+    /*
+    $.fn.options = {
+        baseLineHeight: "16",
+        heightUnits: "px"
+    };
+    */
 })(jQuery, window, document);
