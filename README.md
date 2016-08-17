@@ -12,7 +12,6 @@ jQuery(document).ready(function($) {
   $('img').rhythmic();
 })(jQuery);
 ```
-## Options
-{Table of options here...there aren't many}
 
-## Changelog
+## License
+MIT &copy; 2016 Luke Watts
