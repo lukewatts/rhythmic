@@ -1,4 +1,4 @@
-(function($) {
+(function($, window, document, undefined) {
     /**
     * jQuery Plugin to set the height of all images on a page to
     * a vertical rhythm.
@@ -85,4 +85,12 @@
             }
         });
     };
-})(jQuery);
+    
+    // TODO: Make option mutable
+    /*
+    $.fn.options = {
+        baseLineHeight: "16",
+        heightUnits: "px"
+    };
+    */
+})(jQuery, window, document);
