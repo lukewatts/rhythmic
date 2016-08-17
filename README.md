@@ -13,5 +13,11 @@ jQuery(document).ready(function($) {
 })(jQuery);
 ```
 
+## Contributions
+Pull requests welcome! Simply fork this repo, createa branch such as "adding-options", make changes and submit a pull request with details on the purpose of the changes and any other relevant information.
+
+## NPM
+If someone wants to put this up on NPM let me know. Simply create an issue for people to talk about it. 
+
 ## License
 MIT &copy; 2016 Luke Watts
